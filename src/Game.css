@@ -36,9 +36,9 @@ h2 {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(
     to right,
-    #91eae4 0%,
-    #7f7fd5 51%,
-    #91eae4 100%
+    #1253D5 0%,
+    #91eae4 51%,
+    #1253D5 100%
   );
   border-radius: 0.5rem;
   border: none;
@@ -71,10 +71,11 @@ h2 {
 .Game-header {
   width: 100%;
   background: linear-gradient(-45deg, #673ab7, #9c27b0);
-  background-size: 400% 400%;
+  background: linear-gradient(to right, #9F0003, #B10104, #F8A555); 
+  /* background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
-  animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite; */
 }
 
 @keyframes Gradient {
@@ -95,5 +96,15 @@ h2 {
   }
   .Game-dice-section {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .Game {
+    margin: 0;
+  }
+  .Game-reroll {
+    font-size: 1.2em;
+    padding: .3em;
   }
 }
