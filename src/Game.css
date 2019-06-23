@@ -15,7 +15,7 @@ h2 {
   display: inline-block;
 }
 .Game-dice-section {
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
@@ -91,6 +91,9 @@ h2 {
 
 @media only screen and (max-width: 1400px) {
   .Game {
+    width: 100%;
+  }
+  .Game-dice-section {
     width: 100%;
   }
 }
